@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666200410247,
+  "lastUpdate": 1666610795852,
   "repoUrl": "https://github.com/Horki/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
@@ -4270,6 +4270,120 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-struct-keyed 34_startup-totalbytes",
             "value": "362.98828125",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "futursolo@users.noreply.github.com",
+            "name": "Kaede Hoshikawa",
+            "username": "futursolo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da09755c27bfeb113e0c4b1096214a826f1e8388",
+          "message": "Separate Yew Platform (#2893)\n\n* Remove pinned module.\r\n\r\n* Create Yew Platform.\r\n\r\n* Remove some additional dependencies.\r\n\r\n* Fix clippy.\r\n\r\n* Restore wasm-bindgen-futures.\r\n\r\n* Fix docs.\r\n\r\n* Migrate to prokio.\r\n\r\n* Fix docs warnings.\r\n\r\n* Fix dependencies.",
+          "timestamp": "2022-10-21T06:56:15+09:00",
+          "tree_id": "59c4856f5a9da95e320f8ea325ecc8b59e2d1535",
+          "url": "https://github.com/Horki/yew/commit/da09755c27bfeb113e0c4b1096214a826f1e8388"
+        },
+        "date": 1666610794233,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-struct-keyed 01_run1k",
+            "value": "167.833",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 02_replace1k",
+            "value": "175.58800000000002",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 03_update10th1k_x16",
+            "value": "439.739",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 04_select1k",
+            "value": "55.0245",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 05_swap1k",
+            "value": "86.5415",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 06_remove-one-1k",
+            "value": "30.5245",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 07_create10k",
+            "value": "1975.31",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 08_create1k-after1k_x2",
+            "value": "400.635",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 09_clear1k_x8",
+            "value": "184.4495",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 21_ready-memory",
+            "value": "1.3668479919433594",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 22_run-memory",
+            "value": "1.6016616821289062",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 23_update5-memory",
+            "value": "1.6058998107910156",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 24_run5-memory",
+            "value": "1.648967742919922",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 25_run-clear-memory",
+            "value": "1.385173797607422",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 31_startup-ci",
+            "value": "1731.456",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 32_startup-bt",
+            "value": "32.4",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 33_startup-mainthreadcost",
+            "value": "236.03599999999992",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 34_startup-totalbytes",
+            "value": "362.7919921875",
             "unit": ""
           }
         ]
