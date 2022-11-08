@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1666610795852,
+  "lastUpdate": 1667918345044,
   "repoUrl": "https://github.com/Horki/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
@@ -4384,6 +4384,120 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-struct-keyed 34_startup-totalbytes",
             "value": "362.7919921875",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "al@ayz.ai",
+            "name": "Allan",
+            "username": "allan2"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "812c65c54cdd8f6dfaca490361400d4c3d1cbecb",
+          "message": "Improve debugging page in docs (#2928)\n\n* Improve debugging page in docs\r\n\r\n- add gloo console logging as an option\r\n- moved subsubheading \"Latest Info\" under \"Source Maps\" to a subheading \"Past Articles\", which makes more sense for the content\r\n- updated examples for `wasm-logger` and also made an equivalent one for `gloo-console`\r\n\r\nI removed a lot of text to make it easier to read and improve clarity.\r\nI did look it over but there may be other info you'd like to keep on the page.\r\n\r\nI wanted to add more for `panics` but I wasn't sure what to put.\r\n\r\n* Run Prettier\r\n\r\n* Mention tracing-web under console logging\r\n\r\nThe source map support is also changed but will require more explanation.",
+          "timestamp": "2022-11-07T10:23:54+01:00",
+          "tree_id": "9b10f4b501114619f44596b703e1d8ef9b3de539",
+          "url": "https://github.com/Horki/yew/commit/812c65c54cdd8f6dfaca490361400d4c3d1cbecb"
+        },
+        "date": 1667918343786,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-struct-keyed 01_run1k",
+            "value": "162.94",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 02_replace1k",
+            "value": "173.80900000000003",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 03_update10th1k_x16",
+            "value": "396.0015",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 04_select1k",
+            "value": "65.589",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 05_swap1k",
+            "value": "88.648",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 06_remove-one-1k",
+            "value": "31.885",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 07_create10k",
+            "value": "1912.303",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 08_create1k-after1k_x2",
+            "value": "397.3095",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 09_clear1k_x8",
+            "value": "182.169",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 21_ready-memory",
+            "value": "1.0817146301269531",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 22_run-memory",
+            "value": "1.2896003723144531",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 23_update5-memory",
+            "value": "1.375732421875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 24_run5-memory",
+            "value": "1.383075714111328",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 25_run-clear-memory",
+            "value": "0.952606201171875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 31_startup-ci",
+            "value": "1732.456",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 32_startup-bt",
+            "value": "31.372000000000007",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 33_startup-mainthreadcost",
+            "value": "253.4120000000001",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 34_startup-totalbytes",
+            "value": "370.3720703125",
             "unit": ""
           }
         ]
