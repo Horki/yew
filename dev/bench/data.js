@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1671705988908,
+  "lastUpdate": 1672532813300,
   "repoUrl": "https://github.com/Horki/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
@@ -4928,6 +4928,208 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-vlatest-keyed 34_startup-totalbytes",
             "value": "347.9189453125",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Muhammad Hamza",
+            "username": "hamza1311",
+            "email": "muhammadhamza1311@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "38e2478d9a2b7a251f6fd068675618326d18fd5a",
+          "message": "Use SVG for logo on website (#3065)",
+          "timestamp": "2022-12-30T12:37:10Z",
+          "url": "https://github.com/Horki/yew/commit/38e2478d9a2b7a251f6fd068675618326d18fd5a"
+        },
+        "date": 1672532811745,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-hooks-vlatest-keyed 01_run1k",
+            "value": "152.26600000000002",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 02_replace1k",
+            "value": "168.4235",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 03_update10th1k_x16",
+            "value": "395.2095",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 04_select1k",
+            "value": "157.4555",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 05_swap1k",
+            "value": "105.23",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 06_remove-one-1k",
+            "value": "163.5065",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 07_create10k",
+            "value": "2012.697",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 08_create1k-after1k_x2",
+            "value": "367.56949999999995",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 09_clear1k_x8",
+            "value": "134.32299999999998",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 21_ready-memory",
+            "value": "2.11087703704834",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 22_run-memory",
+            "value": "6.893378257751465",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 23_update5-memory",
+            "value": "7.142099380493164",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 25_run-clear-memory",
+            "value": "5.460548400878906",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 26_run-10k-memory",
+            "value": "47.47317600250244",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 31_startup-ci",
+            "value": "1733.4920000000002",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 32_startup-bt",
+            "value": "0",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 33_startup-mainthreadcost",
+            "value": "13.115999999999998",
+            "unit": ""
+          },
+          {
+            "name": "yew-hooks-vlatest-keyed 34_startup-totalbytes",
+            "value": "352.232421875",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 01_run1k",
+            "value": "153.801",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 02_replace1k",
+            "value": "165.086",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 03_update10th1k_x16",
+            "value": "288.7365",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 04_select1k",
+            "value": "52.608999999999995",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 05_swap1k",
+            "value": "79.13300000000001",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 06_remove-one-1k",
+            "value": "136.74200000000002",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 07_create10k",
+            "value": "1938.8245",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 08_create1k-after1k_x2",
+            "value": "355.9715",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 09_clear1k_x8",
+            "value": "129.77100000000002",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 21_ready-memory",
+            "value": "2.102020263671875",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 22_run-memory",
+            "value": "6.762218475341797",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 23_update5-memory",
+            "value": "6.882552146911621",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 25_run-clear-memory",
+            "value": "5.274206161499023",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 26_run-10k-memory",
+            "value": "46.15693950653076",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 31_startup-ci",
+            "value": "1730.7759999999998",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 32_startup-bt",
+            "value": "0",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 33_startup-mainthreadcost",
+            "value": "13.827999999999998",
+            "unit": ""
+          },
+          {
+            "name": "yew-vlatest-keyed 34_startup-totalbytes",
+            "value": "347.9228515625",
             "unit": ""
           }
         ]
